@@ -1,4 +1,4 @@
-package org.prog5.location.models;
+package org.prog5.location.models.enums;
 
 public enum Status {
     IS_AVAILABLE,

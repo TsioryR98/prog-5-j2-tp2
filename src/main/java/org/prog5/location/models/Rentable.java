@@ -3,6 +3,8 @@ package org.prog5.location.models;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import org.prog5.location.models.enums.Status;
+
 @EqualsAndHashCode
 @Getter
 @AllArgsConstructor
