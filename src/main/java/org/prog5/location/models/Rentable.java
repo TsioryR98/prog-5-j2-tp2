@@ -13,7 +13,7 @@ import org.prog5.location.models.enums.Status;
 @NoArgsConstructor
 @Entity
 @Setter
-public abstract sealed class Rentable permits Car, Computer, Bike {
+public abstract class Rentable {
     @Id
     protected String id;
     protected String name;
