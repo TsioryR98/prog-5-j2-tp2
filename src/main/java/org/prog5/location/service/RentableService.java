@@ -9,6 +9,8 @@ import java.util.Optional;
 @Service
 public interface RentableService {
     Rentable save(Rentable rentable);
+
     Optional<Rentable> findById(String id);
+
     List<Rentable> findAll();
 }

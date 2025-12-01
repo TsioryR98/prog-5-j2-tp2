@@ -12,7 +12,7 @@ import java.util.Objects;
 @Setter
 @NoArgsConstructor
 @Entity
-public final class Computer extends Rentable{
+public final class Computer extends Rentable {
     private String brand;
     private String model;
 

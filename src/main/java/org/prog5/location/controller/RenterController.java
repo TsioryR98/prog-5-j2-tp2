@@ -12,12 +12,16 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/api/renters")
 public class RenterController {
-        @Qualifier("renterServiceImpl")
-        private final RenterService service;
+    @Qualifier("renterServiceImpl")
+    private final RenterService service;
 
-        @GetMapping
-        public List<RenterEntity> all() { return service.findAll(); }
+    @GetMapping
+    public List<RenterEntity> all() {
+        return service.findAll();
+    }
 
-        @PostMapping
-        public RenterEntity create(@RequestBody RenterEntity r) { return service.save(r); }
+    @PostMapping
+    public RenterEntity create(@RequestBody RenterEntity r) {
+        return service.save(r);
+    }
 }

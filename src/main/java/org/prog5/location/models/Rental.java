@@ -8,6 +8,7 @@ import lombok.Setter;
 import org.prog5.location.models.enums.RentalStatus;
 
 import java.time.LocalDate;
+
 @AllArgsConstructor
 @Getter
 @Setter

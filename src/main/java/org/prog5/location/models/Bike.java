@@ -12,9 +12,10 @@ import java.util.Objects;
 @Setter
 @NoArgsConstructor
 @Entity
-public final class Bike extends Rentable{
+public final class Bike extends Rentable {
     private String brand;
     private String model;
+
     public Bike(String id, String name, String description, double pricePerDay, Status rentStatus) {
         super(id, name, description, pricePerDay, rentStatus);
     }

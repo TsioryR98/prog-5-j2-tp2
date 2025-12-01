@@ -17,7 +17,9 @@ public class RentableController {
     private final RentableService service;
 
     @GetMapping
-    public List<Rentable> all() { return service.findAll(); }
+    public List<Rentable> all() {
+        return service.findAll();
+    }
 
     @GetMapping("/{id}")
     public ResponseEntity<Rentable> get(@PathVariable String id) {
@@ -26,5 +28,7 @@ public class RentableController {
     }
 
     @PostMapping
-    public Rentable create(@RequestBody Rentable rentable) { return service.save(rentable); }
+    public Rentable create(@RequestBody Rentable rentable) {
+        return service.save(rentable);
+    }
 }

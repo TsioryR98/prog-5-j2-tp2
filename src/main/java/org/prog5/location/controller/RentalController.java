@@ -8,7 +8,10 @@ import org.prog5.location.service.RentableService;
 import org.prog5.location.service.RenterService;
 import org.prog5.location.service.manager.RentalManager;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
 import java.util.Optional;

@@ -8,5 +8,6 @@ import java.util.Optional;
 @Service
 public interface RentalService {
     Rental save(Rental rental);
+
     Optional<Rental> findById(String id);
 }

@@ -15,6 +15,7 @@ import java.util.Objects;
 public final class Car extends Rentable {
     private String brand;
     private String model;
+
     public Car(String id, String name, String description, double pricePerDay, Status rentStatus) {
         super(id, name, description, pricePerDay, rentStatus);
     }

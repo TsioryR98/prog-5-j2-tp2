@@ -6,10 +6,12 @@ import org.prog5.location.repository.RentalRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
+
 @Service
 @AllArgsConstructor
-public class RentalServiceImpl implements RentalService{
+public class RentalServiceImpl implements RentalService {
     private final RentalRepository rentalRepository;
+
     @Override
     public Rental save(Rental rental) {
         return rentalRepository.save(rental);

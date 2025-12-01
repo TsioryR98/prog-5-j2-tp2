@@ -10,10 +10,11 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Entity
-public class RenterEntity implements Renter{
+public class RenterEntity implements Renter {
     @Id
     private String id;
     private String name;
+
     @Override
     public String getId() {
         return "";
