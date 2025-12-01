@@ -1,7 +1,6 @@
 package org.prog5.location.service;
 
 import lombok.AllArgsConstructor;
-import org.prog5.location.models.Renter;
 import org.prog5.location.models.RenterEntity;
 import org.prog5.location.repository.RenterRepository;
 import org.springframework.stereotype.Service;
@@ -27,4 +26,5 @@ public class RenterServiceImpl implements RenterService{
     public List<RenterEntity> findAll() {
         return renterRepository.findAll();
     }
+
 }
